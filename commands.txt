@@ -1,0 +1,6 @@
+ansible-doc --list | grep ANSIBLE_MODULE : to look up a module that can achieve your goal
+ansible-doc ANSIBLE_MODULE : to learn about the module parameters and example usage.
+ansible-playbook playbookname.yml --check-syntax
+ansible --version : to find out which Ansible config file is currently in use
+ansible-config view : display the content from Ansible config file
+ansible-playbook --limit : to try out your playbook against a single host first before applying it to all your hosts
